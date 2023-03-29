@@ -1,0 +1,11 @@
+message: '§aThis is the default message.'
+mongodb: ''
+lobbyWorld: 'world'
+dayTime: true
+motd:
+  enabled: true
+  message:
+    - '-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-'
+    - '&aWelcome to the server!'
+    - '&aThis is the MOTD!'
+    - '-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-'

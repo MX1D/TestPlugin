@@ -1,0 +1,80 @@
+name: LearningPlugin
+version: '${project.version}'
+main: me.wilbur.myplugin.myPlugin
+api-version: 1.19
+authors: [ Wilbur ]
+depend: [ Vault ]
+description: This is a plugin to learn spigot and stuff idk
+commands:
+  god:
+    description: Gives you god mode
+    usage: /<command>
+    permission: myplugin.commands.god
+    permission-message: §cYou do not have permission to use this command!
+    aliases: [godmode]
+  configMessage:
+    description: Changes the message in the config
+    usage: /<command>
+    permission: myplugin.commands.configMessage
+    permission-message: §cYou do not have permission to use this command!
+    aliases: [configmsg]
+  menu:
+    description: Opens a menu
+    usage: /<command>
+    permission: myplugin.commands.menu
+    permission-message: §cYou do not have permission to use this command!
+    aliases: [gui]
+  feed:
+    description: Feeds you
+    usage: /<command>
+    permission: myplugin.commands.feed
+    permission-message: §cYou do not have permission to use this command!
+    aliases: [eat]
+  fly:
+    description: Gives you fly mode
+    usage: /<command>
+    permission: myplugin.commands.fly
+    permission-message: §cYou do not have permission to use this command!
+    aliases: [flymode]
+  TPBow:
+    description: Gives you a TP Bow
+    usage: /<command>
+    permission: myplugin.commands.TPBow
+    permission-message: §cYou do not have permission to use this command!
+    aliases: [tpbow]
+  armorstand:
+    description: Gives you an armor stand
+    usage: /<command>
+    permission: myplugin.commands.armorstand
+    permission-message: §cYou do not have permission to use this command!
+    aliases: [armor]
+  randomteleport:
+    description: Teleports you to a random location
+    usage: /<command>
+    permission: myplugin.commands.randomteleport
+    permission-message: §cYou do not have permission to use this command!
+    aliases: [rtp]
+  vanish:
+    description: Makes you invisible
+    usage: /<command>
+    permission: myplugin.commands.vanish
+    permission-message: §cYou do not have permission to use this command!
+    aliases: [invisible]
+  endgame:
+    description: Ends the game with a winner and a loser
+    usage: /<command> <winner> <loser>
+    permission: myplugin.commands.endgame
+    permission-message: §cYou do not have permission to use this command!
+    aliases: [end]
+  balance:
+    description: Shows your balance
+    usage: /<command>
+    permission: myplugin.commands.balance
+    permission-message: §cYou do not have permission to use this command!
+    aliases: [bal]
+  lock:
+    description: Locks a chest
+    usage: /<command>
+    permission: myplugin.commands.lock
+    permission-message: §cYou do not have permission to use this command!
+    aliases: [lockchest]
